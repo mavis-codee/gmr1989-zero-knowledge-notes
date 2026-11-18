@@ -1,4 +1,10 @@
-# 零知识证明里为什么会出现 42？
+# 《交互式证明系统的知识复杂度》简体中文版
+
+**[下载完整中文版 PDF](https://raw.githubusercontent.com/mavis-codee/gmr1989-zero-knowledge-notes/main/GMR1989.zh-CN.pdf)** · [在线阅读 Markdown 全文](GMR1989.zh-CN.md)
+
+本译稿对应 Shafi Goldwasser、Silvio Micali 和 Charles Rackoff 的论文 *The Knowledge Complexity of Interactive Proof Systems*，依据 1989 年期刊版翻译并经 AI 辅助校对。译文中标有原刊页码（186–208），方便中英对读。[英文原论文](https://doi.org/10.1137/0218012)
+
+## 阅读笔记：零知识证明里为什么会出现 42？
 
 我在用 AI 辅助整理 Goldwasser、Micali 和 Rackoff 的论文《交互式证明系统的知识复杂度》时，读到第 188 页停了下来。证明者本来要证明的是关于 $y$ 的命题；验证者只改了第一条消息，就顺便问了一个关于 42 的问题。这篇中文笔记从这个例子出发，记录我怎么理解作者对“零知识”的定义。页码对应 1989 年《SIAM Journal on Computing》期刊版。[原论文](https://doi.org/10.1137/0218012)
 
